@@ -1,0 +1,97 @@
+.access__message  {
+  background-image: url("../../../asset/Frame\ 304.svg");
+  background-repeat: no-repeat; 
+  /* object-fit: contain; */
+  text-align: center;
+  padding: 80px 120px 160px 0;
+  margin-top: 240px;
+  /* background: #affbf3; */
+  border-radius: 40px;
+
+} 
+
+h1 {
+  font-family: "Helvetica Neue";
+  color: #333230;
+  font-style: normal;
+  line-height: 62px;
+  font-size: 52px;
+  font-weight: 700;
+}
+
+button.btn2 {
+    font-family: "Helvetica Neue";
+    font-style: normal;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    color: #FFFFFF;
+    width: 200px;
+    height: 80px;
+    background-color: #45B5AA;
+    border-radius: 16px;
+    border: 1px solid #45B5AA;
+    margin-left: 12px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+input[type="email"] {
+    margin-left: 120px;
+    width: 434px;
+    height: 80px;
+    background: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 16px;
+    padding-left: 28px;
+    outline: none;
+    color: #999FAB;
+    font-family: "Helvetica Neue";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 767.98px) {
+  .access__message {
+    margin-top: 80px;
+    padding: 40px 12px 80px 20px;
+   
+  }
+
+  h1 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  input[type="email"],
+  button.btn2 {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  button.btn2 {
+    margin-top: 24px;
+  }
+
+  .sm-column {
+    flex-direction: column;
+  }
+
+  
+}
+
+@media screen and (min-width: 768px)and (max-width: 1279.98px) {
+  input[type="email"] {
+    margin-left: 0px;
+  }
+  .access__message {
+    padding: 80px;
+  }
+}
+
+@media screen and (min-width: 910px) and (max-width: 1279.98px) {
+  .access__message {
+    padding: 100px 80px 100px 120px;
+  }
+}
